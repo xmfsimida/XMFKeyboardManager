@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C17368B1D76CAE000BAD48C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C17368A1D76CAE000BAD48C /* main.m */; };
+		3C17368E1D76CAE000BAD48C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C17368D1D76CAE000BAD48C /* AppDelegate.m */; };
+		3C1736911D76CAE000BAD48C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1736901D76CAE000BAD48C /* ViewController.m */; };
+		3C1736941D76CAE000BAD48C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1736921D76CAE000BAD48C /* Main.storyboard */; };
+		3C1736961D76CAE000BAD48C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C1736951D76CAE000BAD48C /* Assets.xcassets */; };
+		3C1736991D76CAE000BAD48C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1736971D76CAE000BAD48C /* LaunchScreen.storyboard */; };
+		3C1736A31D76CB2000BAD48C /* UIView+XMFKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1736A21D76CB2000BAD48C /* UIView+XMFKeyboard.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C1736861D76CAE000BAD48C /* XMFKeyboardManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMFKeyboardManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C17368A1D76CAE000BAD48C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C17368C1D76CAE000BAD48C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C17368D1D76CAE000BAD48C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C17368F1D76CAE000BAD48C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C1736901D76CAE000BAD48C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C1736931D76CAE000BAD48C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C1736951D76CAE000BAD48C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C1736981D76CAE000BAD48C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C17369A1D76CAE000BAD48C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C1736A11D76CB2000BAD48C /* UIView+XMFKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMFKeyboard.h"; sourceTree = "<group>"; };
+		3C1736A21D76CB2000BAD48C /* UIView+XMFKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMFKeyboard.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C1736831D76CAE000BAD48C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C17367D1D76CAE000BAD48C = {
+			isa = PBXGroup;
+			children = (
+				3C1736881D76CAE000BAD48C /* XMFKeyboardManager */,
+				3C1736871D76CAE000BAD48C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C1736871D76CAE000BAD48C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C1736861D76CAE000BAD48C /* XMFKeyboardManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C1736881D76CAE000BAD48C /* XMFKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				3C1736A01D76CB0800BAD48C /* Manager */,
+				3C17368C1D76CAE000BAD48C /* AppDelegate.h */,
+				3C17368D1D76CAE000BAD48C /* AppDelegate.m */,
+				3C17368F1D76CAE000BAD48C /* ViewController.h */,
+				3C1736901D76CAE000BAD48C /* ViewController.m */,
+				3C1736921D76CAE000BAD48C /* Main.storyboard */,
+				3C1736951D76CAE000BAD48C /* Assets.xcassets */,
+				3C1736971D76CAE000BAD48C /* LaunchScreen.storyboard */,
+				3C17369A1D76CAE000BAD48C /* Info.plist */,
+				3C1736891D76CAE000BAD48C /* Supporting Files */,
+			);
+			path = XMFKeyboardManager;
+			sourceTree = "<group>";
+		};
+		3C1736891D76CAE000BAD48C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C17368A1D76CAE000BAD48C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C1736A01D76CB0800BAD48C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				3C1736A11D76CB2000BAD48C /* UIView+XMFKeyboard.h */,
+				3C1736A21D76CB2000BAD48C /* UIView+XMFKeyboard.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C1736851D76CAE000BAD48C /* XMFKeyboardManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C17369D1D76CAE000BAD48C /* Build configuration list for PBXNativeTarget "XMFKeyboardManager" */;
+			buildPhases = (
+				3C1736821D76CAE000BAD48C /* Sources */,
+				3C1736831D76CAE000BAD48C /* Frameworks */,
+				3C1736841D76CAE000BAD48C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMFKeyboardManager;
+			productName = XMFKeyboardManager;
+			productReference = 3C1736861D76CAE000BAD48C /* XMFKeyboardManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C17367E1D76CAE000BAD48C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xumingfa;
+				TargetAttributes = {
+					3C1736851D76CAE000BAD48C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3C1736811D76CAE000BAD48C /* Build configuration list for PBXProject "XMFKeyboardManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C17367D1D76CAE000BAD48C;
+			productRefGroup = 3C1736871D76CAE000BAD48C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C1736851D76CAE000BAD48C /* XMFKeyboardManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C1736841D76CAE000BAD48C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1736991D76CAE000BAD48C /* LaunchScreen.storyboard in Resources */,
+				3C1736961D76CAE000BAD48C /* Assets.xcassets in Resources */,
+				3C1736941D76CAE000BAD48C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C1736821D76CAE000BAD48C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1736911D76CAE000BAD48C /* ViewController.m in Sources */,
+				3C17368E1D76CAE000BAD48C /* AppDelegate.m in Sources */,
+				3C17368B1D76CAE000BAD48C /* main.m in Sources */,
+				3C1736A31D76CB2000BAD48C /* UIView+XMFKeyboard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C1736921D76CAE000BAD48C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C1736931D76CAE000BAD48C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C1736971D76CAE000BAD48C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C1736981D76CAE000BAD48C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C17369B1D76CAE000BAD48C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C17369C1D76CAE000BAD48C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C17369E1D76CAE000BAD48C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XMFKeyboardManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmf.XMFKeyboardManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C17369F1D76CAE000BAD48C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XMFKeyboardManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmf.XMFKeyboardManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C1736811D76CAE000BAD48C /* Build configuration list for PBXProject "XMFKeyboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C17369B1D76CAE000BAD48C /* Debug */,
+				3C17369C1D76CAE000BAD48C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C17369D1D76CAE000BAD48C /* Build configuration list for PBXNativeTarget "XMFKeyboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C17369E1D76CAE000BAD48C /* Debug */,
+				3C17369F1D76CAE000BAD48C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C17367E1D76CAE000BAD48C /* Project object */;
+}
